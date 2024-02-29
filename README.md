@@ -1,6 +1,6 @@
-<h1>chordsAI: supercharge your spotify llibrary with AI!</h1>
+<h1>chordsAI: supercharge your spotify library with AI!</h1>
 
-<p>with chordsAI you can generate a playlist based on your mood or any other playlist</p>
+<p>with chordsAI you can generate a playlist based on your mood or any other playlist.</p>
 
 <h2>Technical Stack</h2>
 
@@ -23,7 +23,7 @@ Create a `.env` file in the example directory with your `client_id` and redirect
 
 ```bash .env
 VITE_SPOTIFY_CLIENT_ID=your_spotify_client_id_for_tests
-VITE_REDIRECT_TARGET=http://localhost:3000
+VITE_REDIRECT_TARGET=http://localhost:5173
 ```
 
 To run the app:
@@ -34,11 +34,11 @@ npm run dev
 
 
 <h2>Special Credits</h2>
-<p>A special thanks to the spotify web api typescript sdk team and all the open source contributors</p>
+<p>A special thanks to the spotify web api typescript sdk team and all the open source contributors.</p>
 
 <h2>Credits</h2>
 
-<p>Finds is built and maintained solely by Tejasva(Neil) Jaitly. Special thanks to the developers of the libraries and frameworks used in this project.</p>
+<p>chordsAI is built and maintained solely by Tejasva(Neil) Jaitly. Special thanks to the developers of the libraries and frameworks used in this project.</p>
 
 <h2>License</h2>
 
