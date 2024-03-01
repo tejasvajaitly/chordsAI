@@ -3,7 +3,6 @@ import {
     SimplifiedPlaylist,
     SpotifyApi,
 } from "@spotify/web-api-ts-sdk";
-import "./App.css";
 import { useSpotify } from "./hooks/useSpotify";
 import { useEffect, useState } from "react";
 
@@ -46,8 +45,14 @@ function UserPlaylists(props: UserPlaylistsProps) {
     }, []);
 
     return userPlaylists ? (
-        userPlaylists.map((userPlaylist) => <div>{userPlaylist.name}</div>)
+        <ul>
+            {userPlaylists.map((userPlaylist) => (
+                <li className="bg-gray-800 m-4 table p-3 rounded text-gray-50">
+                    {userPlaylist.name}
+                </li>
+            ))}
+        </ul>
     ) : (
-        <>either loading or error getting data</>
+        <p>either loading or error getting data</p>
     );
 }
